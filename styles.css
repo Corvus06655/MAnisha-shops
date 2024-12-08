@@ -7,21 +7,38 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f4f9;
+    background: url('data:image/jpeg;base64,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') no-repeat center center fixed; /* Use the uploaded image */
+    background-size: cover; /* Ensure the image covers the entire background */
     color: #333;
     line-height: 1.6;
+    position: relative; /* For overlay compatibility */
+}
+
+/* Optional overlay for better text visibility */
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7); /* Soft white overlay */
+    z-index: -1;
 }
 
 /* Header */
 header {
-    background-color: #4caf50; /* Shopping-friendly green */
+    background: linear-gradient(90deg, #4caf50, #388e3c); /* Gradient for depth */
     color: white;
     text-align: center;
-    padding: 20px;
-    font-size: 2rem;
+    padding: 30px;
+    font-size: 2.5rem; /* Slightly larger font */
     text-transform: uppercase;
-    letter-spacing: 2px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    letter-spacing: 3px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 /* Search Bar */
@@ -29,69 +46,81 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 40px auto; /* Increased margin for spacing */
-    gap: 15px;
-    padding: 20px;
-    max-width: 900px; /* Increased width */
+    margin: 50px auto;
+    gap: 20px;
+    padding: 25px;
+    max-width: 900px;
+    background: white; /* Adds a card-like feel */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #search-input {
-    width: 80%; /* Increased width */
-    padding: 20px 30px; /* Increased padding */
-    font-size: 1.8rem; /* Increased font size */
-    border: 3px solid #4caf50; /* Slightly thicker border */
-    border-radius: 10px; /* Rounded corners */
+    width: 75%;
+    padding: 15px 25px;
+    font-size: 1.6rem;
+    border: 2px solid #4caf50;
+    border-radius: 8px;
     outline: none;
-    background-color: #ffffff;
+    background-color: #fff;
     color: #333;
-    transition: border-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 #search-input:focus {
-    border-color: #388e3c; /* Highlight border on focus */
+    border-color: #388e3c;
+    box-shadow: 0 0 8px rgba(72, 182, 97, 0.5); /* Glow effect */
 }
 
 button {
-    padding: 15px 40px; /* Larger button */
-    font-size: 1.8rem; /* Increased font size */
-    background-color: #4caf50;
+    padding: 12px 35px;
+    font-size: 1.6rem;
+    background: linear-gradient(90deg, #4caf50, #2e7d32);
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: 8px;
     cursor: pointer;
     font-weight: bold;
-    transition: background-color 0.3s ease, transform 0.2s ease;
+    transition: all 0.3s ease;
 }
 
 button:hover {
-    background-color: #388e3c;
-    transform: scale(1.05); /* Slight hover animation */
+    background: linear-gradient(90deg, #388e3c, #1b5e20);
+    transform: scale(1.08);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 /* Container */
 .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    gap: 30px;
-    padding: 30px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 25px;
+    padding: 40px;
     justify-items: center;
+    animation: fadeIn 1.2s ease-out;
 }
 
 /* Product */
 .product {
-    background-color: white;
-    border-radius: 8px;
+    background: #fff;
+    border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    transition: all 0.4s ease;
     width: 100%;
     max-width: 400px;
 }
 
-/* Product Hover Animation */
 .product:hover {
-    transform: scale(1.05);
+    transform: translateY(-10px);
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Image */
+.product img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 /* Product Details */
@@ -102,13 +131,12 @@ button:hover {
 
 /* Product Title */
 .details h3 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     color: #333;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     transition: color 0.3s ease;
 }
 
-/* Product Title Hover Color */
 .product:hover .details h3 {
     color: #4caf50;
 }
@@ -124,31 +152,29 @@ button:hover {
 /* Add to Cart Button */
 .details a {
     display: inline-block;
-    padding: 12px 25px;
-    background-color: #4caf50; /* Shopping-friendly green */
+    padding: 12px 30px;
+    background: #4caf50;
     color: white;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 8px;
     font-weight: bold;
-    transition: background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
-/* Add to Cart Button Hover Effect */
 .details a:hover {
-    background-color: #388e3c; /* Darker green for hover effect */
-}
-
-/* Add animation to the entire container */
-.container {
-    animation: fadeIn 1s ease-out;
+    background: #388e3c;
+    transform: scale(1.1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
 }
 
 /* Fade-in Animation */
 @keyframes fadeIn {
     from {
         opacity: 0;
+        transform: translateY(20px);
     }
     to {
         opacity: 1;
+        transform: translateY(0);
     }
 }
