@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>Manisha Shop's</header>
+    
+    <!-- Search Section -->
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Enter a Product  name or keyword...">
+        <button onclick="searchSites()">Search</button>
+    </div>
+
+    <div class="container">
+        <!-- Jio Mart -->
+        <div class="movie">
+            <div class="details">
+                <h3>JIO MART</h3>
+                <p>A site for purchasing </p>
+                <a href="https://www.jiomart.com/c/electronics/4" target="_blank">Purchase</a>
+            </div>
+        </div>
+        <!-- Flipkart -->
+        <div class="movie">
+            <div class="details">
+                <h3>Flipkart</h3>
+                <p>A site for purchasing </p>
+                <a href="https://www.flipkart.com/" target="_blank">Purchase</a>
+            </div>
+        </div>
+        <!-- Amazon -->
+        <div class="movie">
+            <div class="details">
+                <h3>Amazon</h3>
+                <p>A site for purchasing </p>
+                <a href="https://www.amazon.in/" target="_blank">Purchase</a>
+            </div>
+        </div>
+        <div class="movie">
+            <div class="details">
+                <h3>meesho</h3>
+                <p>a site for shopping</p>
+                <a href="https://www.meesho.com/">Click for shopping</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function searchSites() {
+    const query = document.getElementById('search-input').value.trim();
+    if (!query) {
+        alert("Please enter a search keyword!");
+        return;
+    }
+
+    const sites = [
+        { name: "Jio Mart", url: `https://www.jiomart.com/search/${query}` },
+        { name: "Flipkart", url: `https://www.flipkart.com/search?q=${query}` },
+        { name: "Amazon", url: `https://www.amazon.in/s?k=${query}` },
+        { name: "Meesho", url: `https://www.meesho.com/search?q=${query}` }
+    ];
+
+    sites.forEach(site => window.open(site.url, '_blank'));
+}
+
+    </script>
+</body>
+</html>
